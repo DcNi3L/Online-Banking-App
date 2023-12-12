@@ -4,7 +4,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     font-size: 30px;
     color: #000;
-    background-color: #fffafa;
+    background-color: #ffffff;
 }
 
 .header {
@@ -113,7 +113,7 @@ hr {
 
 .right > img {
     width: 558px;
-    height: 664;
+    height: 664px;
 }
 
 .btn {

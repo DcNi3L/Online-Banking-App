@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -50,8 +50,8 @@
             You can <span>Transfer, Withdraw & Deposit</span> money
           </p>
           <div class="btn">
-            <a href="" class="signIn-btn btns">Sign In</a>
-            <a href="" class="signUp-btn btns">Sign Up</a>
+            <a href="signin.html" th:href="@{/signin}" class="signIn-btn btns">Sign In</a>
+            <a href="signup.html" th:href="@{/signup}" class="signUp-btn btns">Sign Up</a>
           </div>
         </section>
 
